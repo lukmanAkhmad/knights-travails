@@ -1,4 +1,4 @@
-import { knightMoves } from "./knight-travails";
+import { knightMoves } from "../debugingg";
 
 describe("Knight Travails", () => {
   test("Implement BFS", () => {
