@@ -37,7 +37,7 @@ function knightMoves(start, end) {
       console.log("STOP from R = +1, C = -2");
 
       const connectionReverse = connection.reverse();
-      let tempNext;
+      let tempNextString;
 
       connectionReverse.forEach((item) => {
         const currentItem = item.current;
@@ -46,9 +46,9 @@ function knightMoves(start, end) {
         const nextItemString = nextItem.join();
         const endString = end.join();
 
-        if (nextItemString === endString || nextItem === tempNext) {
+        if (nextItemString === endString || nextItemString === tempNextString) {
           result.push(nextItem);
-          tempNext = currentItem;
+          tempNextString = currentItemString;
         }
       });
 
@@ -80,7 +80,7 @@ function knightMoves(start, end) {
       console.log("STOP from R = +2, C = -1");
 
       const connectionReverse = connection.reverse();
-      let tempNext;
+      let tempNextString;
 
       connectionReverse.forEach((item) => {
         const currentItem = item.current;
@@ -89,9 +89,9 @@ function knightMoves(start, end) {
         const nextItemString = nextItem.join();
         const endString = end.join();
 
-        if (nextItemString === endString || nextItem === tempNext) {
+        if (nextItemString === endString || nextItemString === tempNextString) {
           result.push(nextItem);
-          tempNext = currentItem;
+          tempNextString = currentItemString;
         }
       });
 
@@ -123,7 +123,7 @@ function knightMoves(start, end) {
       console.log("STOP from R = +1, C = +2");
 
       const connectionReverse = connection.reverse();
-      let tempNext;
+      let tempNextString;
 
       connectionReverse.forEach((item) => {
         const currentItem = item.current;
@@ -132,9 +132,9 @@ function knightMoves(start, end) {
         const nextItemString = nextItem.join();
         const endString = end.join();
 
-        if (nextItemString === endString || nextItem === tempNext) {
+        if (nextItemString === endString || nextItemString === tempNextString) {
           result.push(nextItem);
-          tempNext = currentItem;
+          tempNextString = currentItemString;
         }
       });
 
@@ -166,7 +166,7 @@ function knightMoves(start, end) {
       console.log("STOP from R = +2, C = +1");
 
       const connectionReverse = connection.reverse();
-      let tempNext;
+      let tempNextString;
 
       connectionReverse.forEach((item) => {
         const currentItem = item.current;
@@ -175,9 +175,9 @@ function knightMoves(start, end) {
         const nextItemString = nextItem.join();
         const endString = end.join();
 
-        if (nextItemString === endString || nextItem === tempNext) {
+        if (nextItemString === endString || nextItemString === tempNextString) {
           result.push(nextItem);
-          tempNext = currentItem;
+          tempNextString = currentItemString;
         }
       });
 
@@ -209,7 +209,7 @@ function knightMoves(start, end) {
       console.log("STOP from R = -1, C = -2");
 
       const connectionReverse = connection.reverse();
-      let tempNext;
+      let tempNextString;
 
       connectionReverse.forEach((item) => {
         const currentItem = item.current;
@@ -218,9 +218,9 @@ function knightMoves(start, end) {
         const nextItemString = nextItem.join();
         const endString = end.join();
 
-        if (nextItemString === endString || nextItem === tempNext) {
+        if (nextItemString === endString || nextItemString === tempNextString) {
           result.push(nextItem);
-          tempNext = currentItem;
+          tempNextString = currentItemString;
         }
       });
 
@@ -252,7 +252,7 @@ function knightMoves(start, end) {
       console.log("STOP from R = -2, C = -1");
 
       const connectionReverse = connection.reverse();
-      let tempNext;
+      let tempNextString;
 
       connectionReverse.forEach((item) => {
         const currentItem = item.current;
@@ -261,9 +261,9 @@ function knightMoves(start, end) {
         const nextItemString = nextItem.join();
         const endString = end.join();
 
-        if (nextItemString === endString || nextItem === tempNext) {
+        if (nextItemString === endString || nextItemString === tempNextString) {
           result.push(nextItem);
-          tempNext = currentItem;
+          tempNextString = currentItemString;
         }
       });
 
@@ -295,7 +295,7 @@ function knightMoves(start, end) {
       console.log("STOP from R = -2, C = +1");
 
       const connectionReverse = connection.reverse();
-      let tempNext;
+      let tempNextString;
 
       connectionReverse.forEach((item) => {
         const currentItem = item.current;
@@ -304,9 +304,9 @@ function knightMoves(start, end) {
         const nextItemString = nextItem.join();
         const endString = end.join();
 
-        if (nextItemString === endString || nextItem === tempNext) {
+        if (nextItemString === endString || nextItemString === tempNextString) {
           result.push(nextItem);
-          tempNext = currentItem;
+          tempNextString = currentItemString;
         }
       });
 
@@ -338,7 +338,7 @@ function knightMoves(start, end) {
       console.log("STOP from R = -1, C = +2");
 
       const connectionReverse = connection.reverse();
-      let tempNext;
+      let tempNextString;
 
       connectionReverse.forEach((item) => {
         const currentItem = item.current;
@@ -347,9 +347,9 @@ function knightMoves(start, end) {
         const nextItemString = nextItem.join();
         const endString = end.join();
 
-        if (nextItemString === endString || nextItem === tempNext) {
+        if (nextItemString === endString || nextItemString === tempNextString) {
           result.push(nextItem);
-          tempNext = currentItem;
+          tempNextString = currentItemString;
         }
       });
 
